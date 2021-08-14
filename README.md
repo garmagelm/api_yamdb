@@ -6,9 +6,10 @@
 ***Установка***
 
 1. Клонируем репозитарий на локальную машину из GitHub.
-2. Выполнить команду `python -m venv venv`
-3. Выполнить команду `pip install -r requirements.txt`
-4. Выполнить команду `python3 manage.py runserver`
+2. Создаем виртуальное окружение командой `$ python -m venv venv`.
+3. Устанавливаем зависимости командой `$ pip install -r requirements.txt`
+4. Создание и применение миграций `$ python manage.py makemigrations` и `$ python manage.py migrate`
+5. Запускаем django сервер командой `$ python manage.py runserver`
 
 ***Стек технологий:***
 
